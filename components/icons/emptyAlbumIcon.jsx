@@ -1,7 +1,5 @@
-import { LuCircleSlash2 } from "react-icons/lu";
-
-export default function EmptyAlbumIcon(){
-    return(
-        <LuCircleSlash2 />
-    )
-}
+export default function emptyAlbumIcon() {
+    return (
+      <div className="w-12 h-12 bg-neutral-500"></div>
+    );
+  }
